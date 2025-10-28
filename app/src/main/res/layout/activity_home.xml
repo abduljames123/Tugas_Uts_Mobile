@@ -1,0 +1,95 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tvWelcome"
+            android:text="Halo James, Pilih Makanan:"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <RadioGroup
+            android:id="@+id/radioGroupMakanan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/rbCombro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Combro Asli Bandung" />
+
+            <RadioButton
+                android:id="@+id/rbBatagor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Batagor Bandung" />
+
+            <RadioButton
+                android:id="@+id/rbCireng"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cireng Isi Pedas" />
+
+            <RadioButton
+                android:id="@+id/rbSeblak"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Seblak Jeletet" />
+
+            <RadioButton
+                android:id="@+id/rbSateMaranggi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sate Maranggi Purwakarta" />
+
+            <RadioButton
+                android:id="@+id/rbNasiGoreng"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nasi Goreng Spesial" />
+
+            <RadioButton
+                android:id="@+id/rbMieAyam"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mie Ayam Bakso Komplit" />
+
+            <RadioButton
+                android:id="@+id/rbAyamGeprek"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ayam Geprek Sambal Bawang" />
+
+            <RadioButton
+                android:id="@+id/rbNasiPadang"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nasi Padang Rendang" />
+
+            <RadioButton
+                android:id="@+id/rbSotoBetawi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Soto Betawi Gurih" />
+
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/btnOrder"
+            android:text="Pesan Sekarang"
+            android:layout_marginTop="24dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</ScrollView>
